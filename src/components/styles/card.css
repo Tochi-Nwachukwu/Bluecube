@@ -1,0 +1,46 @@
+.card-container {
+  background-color: white;
+  margin-right: 8px;
+  height: 20rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+}
+.details-box {
+  padding: 16px;
+  background-color: white;
+  width: 100%;
+}
+
+.details-box h1 {
+  font-size: 18px;
+  color: #7a7799;
+}
+
+.location {
+  display: flex;
+  margin: 8px 0px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  outline: none;
+  gap: 8px;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.button-1 {
+  background-color: #c73634;
+}
+
+.button-2 {
+  background-color: #342d98;
+}

@@ -1,0 +1,30 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  background-color: #f7f6fb;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  padding: 16px;
+  height: 100vh;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 16px 32px;
+  grid-gap: 4px;
+  overflow-y: scroll;
+  height: 150%;
+}
