@@ -11,7 +11,7 @@ import Profile from './components/Profile'
 
 function App() {
   const [data, setData] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('boys');
+  const [searchTerm, setSearchTerm] = useState('africa');
 
 
   const baseUrl = 'https://api.unsplash.com/search/photos';
@@ -24,22 +24,19 @@ function App() {
       setData(response.data.results)
     })
 
-    console.log(data)
+
   }
 
 
   const getSearchTerm = (e) => {
-
     const searchEntry = e.target.value;
-    console.log(searchEntry)
-
     setSearchTerm(searchEntry)
     getData()
   }
 
   useEffect(() => {
     getData();
-  }, [])
+  }, [data])
 
   return (
     <div className="App">

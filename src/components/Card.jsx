@@ -18,8 +18,8 @@ function Card({ cardData }) {
                 <div className='location'><span><ImLocation2 /> {cardData.user.location}</span></div>
 
                 <div className="buttons">
-                    <button className='button button-1'><AiOutlineHeart /></button>
-                    <button className=' button button-2'><AiOutlineDislike /></button>
+                    <button className='button button-1'><AiOutlineHeart style={{ color: 'white', fontSize: '16px' }} /></button>
+                    <button className=' button button-2'><AiOutlineDislike style={{ color: 'white', fontSize: '16px' }} /></button>
 
                 </div>
             </div>

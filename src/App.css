@@ -1,18 +1,26 @@
 * {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color: #f7f6fb;
+  height: 100vh;
 }
 
 .App {
   display: grid;
+  margin: 0px;
   grid-template-columns: 20% 80%;
   background-color: #f7f6fb;
   height: 100vh;
-  overflow: hidden;
 }
 
 .main {
   padding: 16px;
-  height: 100vh;
+  height: 100%;
 }
 
 .top-bar {
@@ -26,5 +34,5 @@
   padding: 16px 32px;
   grid-gap: 4px;
   overflow-y: scroll;
-  height: 150%;
+  height: 80vh;
 }
